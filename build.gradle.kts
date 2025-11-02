@@ -1,11 +1,3 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        maven(url = "https://plugins.gradle.org/m2/")
-    }
-}
-
 plugins {
     alias(libs.plugins.arturbosch.detekt)
 }
